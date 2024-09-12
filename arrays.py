@@ -53,7 +53,16 @@ print(color)
 
 
 
+data = [
+    "Hello, this is line 1.",
+    "This is line 2.",
+    "And here is line 3."
+]
 
+# Accessing elements
+print(data[0])  # Output: Hello, this is line 1.
+print(data[1])  # Output: This is line 2.
+print(data[2])  # Output: And here is line 3.
 
 
 
