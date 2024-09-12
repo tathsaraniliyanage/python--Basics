@@ -22,7 +22,22 @@ print(x, y, z)
 
 
 
+# global variables
+x = "awesome"
+def myfunc():
+  print("Python is " + x)
+myfunc()
 
+
+fruits = ["apple","banana","orange"]
+for x in fruits:
+  print(x)
+  print(type(x))
+  
+  
+letters = ["a","b","c"]
+for x in letters:
+  print(letters.reverse())
   
   
   
